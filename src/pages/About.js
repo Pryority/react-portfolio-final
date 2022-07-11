@@ -13,19 +13,17 @@ export default function About() {
                         <p className='text-start flex-wrap w-full'>My name is Matthew and I am an aspiring full-stack developer.<br /><br /> Before I started to learn full-stack development with the University of Toronto, I finished my studies at Laurentian University with my Bachelor of Physical Health Education and Bachelor of Education. I am pursueing a career in web development because of my passion for technology, for media and art.</p>
                     </div>
                     <div className='flex w-full justify-end md:justify-center sm:justify-center'>
-                        <button
-                            className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded mt-4 outline-none focus:outline-none w-1/2 ease-linear transition-all duration-150"
-                            type="submit"
-                        >
-                            View resume
-                        </button>
+                        <a href='/resume'>
+                            <div
+                                className="flex bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded mt-4 outline-none focus:outline-none ease-linear transition-all duration-150"
+                                type="submit"
+                            >
+                                View resume
+                            </div>
+                        </a>
                     </div>
                 </div>
-
-
-
             </div>
-
         </div >
     );
 };
