@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from './mp-resume-2022.pdf#toolbar=0'
 
 export default function Resume() {
     return (
@@ -6,7 +7,7 @@ export default function Resume() {
             <div className='flex flex-col items-center justify-center w-1/2 h-screen'>
                 <div className='flex space-x-2 justify-center h-4/5 items-center w-full border border-slate-100 p-2 bg-slate-50 bg-opacity-25 rounded-md'>
 
-                    <embed src="mp-resume-2022.pdf#toolbar=0" className='overflow flex w-full h-full' />
+                    <embed src={resume} className='overflow flex w-full h-full' />
                 </div>
                 <div className='flex w-full justify-center md:justify-center sm:justify-center mb-4'>
                     <a href='/resume'>

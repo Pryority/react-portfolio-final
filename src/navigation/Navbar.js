@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
+import mp from './MP.png'
 
 export default class Nav extends Component {
     render() {
         return (
             <nav id='navbar' className='flex items-center p-4 px-8' >
                 <div className='flex w-full space-x-2 justify-start items-center'>
-                    <img src='/MP.png' className='w-24' alt='Logo' />
+                    <img src={mp} className='w-24' alt='Logo' />
                 </div>
 
                 <ul className='flex space-x-8 items-center list-none mr-4'>

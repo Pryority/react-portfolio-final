@@ -1,11 +1,12 @@
 import React from 'react';
+import headshot from './matt-headshot.jpg';
 
 export default function About() {
     return (
         <div className='flex items-center justify-center h-screen'>
             <div className='flex space-x-2 justify-center items-center w-1/2 border border-slate-100 p-8 bg-slate-50 bg-opacity-25 rounded-md'>
                 <div className='flex flex-col w-full'>
-                    <img src='../../matt-headshot.jpg' className='h-64 rounded-sm object-cover' alt='Matt on a beach.' />
+                    <img src={headshot} className='h-64 rounded-sm object-cover' alt='Matt on a beach.' />
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className='flex flex-col justify-center p-4'>

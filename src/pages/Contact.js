@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactForm from './ContactForm';
+import headshot from './matt-headshot.jpg'
 
 export default function Contact() {
     return (
@@ -11,7 +12,7 @@ export default function Contact() {
                 <div className='flex w-full border-b border-2 border-slate-100 rounded-full mb-4' />
                 <div className='flex space-x-8 justify-around items-center'>
                     <ContactForm />
-                    <img src='../../matt-headshot.jpg' className='h-64 rounded-md border border-1 border-slate-200' alt='Matt on beach' />
+                    <img src={headshot} className='h-64 rounded-md border border-1 border-slate-200' alt='Matt on beach' />
                 </div>
                 <div className='flex flex-col space-y-4 justify-center items-center '>
                     <div className='flex space-x-2 mt-4'>

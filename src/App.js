@@ -7,6 +7,7 @@ import About from './pages/About.js';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume.js';
+import ib from './italy_withEndingMosh_final.mp4';
 
 function App() {
   return (<>
@@ -24,7 +25,7 @@ function App() {
     </Router>
     <div className='p-2'>
       <video width="100%" height="100%" className='rounded-t-lg' controls autoplay='true' muted='true'>
-        <source src="/italy_withEndingMosh_final.mp4" type="video/mp4" />
+        <source src={ib} type="video/mp4" />
       </video>
     </div>
     <Footer /></>
