@@ -1,4 +1,4 @@
-# React Portfolio
+# [Matthew's Full-Stack Portfolio Website](https://powerful-chamber-65235.herokuapp.com/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -10,7 +10,7 @@
 
 ## Description
 
-I have created an updated personal website using React for the frontend framework. The website contains information about myself as well as projects I have worked on and ways to get in contact with me about work or collaborations.
+I have created an updated personal website using React for the frontend framework. The website contains information about myself as well as projects I have worked on and ways to get in contact with me about work or collaborations. Please check out [my portfolio](https://powerful-chamber-65235.herokuapp.com/)!
 
 ## Questions
 
@@ -22,4 +22,4 @@ If you have any questions feel free to contact me here:
 
 ## Application Image
 
-![Image of Application](public/assets/images/demo.png)
+![Image of Application](src/assets/images/demo.png)
