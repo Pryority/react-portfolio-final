@@ -10,7 +10,7 @@
 
 ## Description
 
-I have created an updated personal website using React for the frontend framework. The website contains information about myself as well as projects I have worked on and ways to get in contact with me about work or collaborations.
+I have created an updated personal website using React for the frontend framework. The website contains information about myself as well as projects I have worked on and ways to get in contact with me about work or collaborations. Please check out [my portfolio](https://powerful-chamber-65235.herokuapp.com/)!
 
 ## Questions
 
