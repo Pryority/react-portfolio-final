@@ -1,4 +1,4 @@
-# React Portfolio
+# [Matthew's Full-Stack Portfolio Website](https://powerful-chamber-65235.herokuapp.com/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -22,4 +22,4 @@ If you have any questions feel free to contact me here:
 
 ## Application Image
 
-![Image of Application](demo.png)
+![Image of Application](public/demo.png)
