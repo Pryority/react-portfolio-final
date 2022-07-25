@@ -3,8 +3,8 @@ import headshot from '../../src/assets/images/matt-headshot.jpg';
 
 export default function About() {
     return (
-        <div className='flex w-full items-center justify-center h-screen'>
-            <div className='flex space-x-2 justify-center items-center w-3/4 h-3/4 border border-slate-100 p-8 bg-slate-50 bg-opacity-25 rounded-md shadow-sm'>
+        <div className='flex-col items-center justify-center h-full space-y-4 mx-8'>
+            <div className='flex space-x-2 justify-center items-center h-2/3 border border-slate-100 p-8 bg-slate-50 bg-opacity-25 rounded-md shadow-sm'>
                 <div className='flex flex-col w-full'>
                     <img src={headshot} className='h-128 rounded-sm object-cover' alt='Matt on a beach.' />
                 </div>
@@ -36,6 +36,67 @@ export default function About() {
                                 View Résumé
                             </div>
                         </a>
+                    </div>
+                </div>
+            </div>
+            <div className='flex-col justify-center items-center h-3/4 border border-slate-100 p-8 bg-slate-50 bg-opacity-25 rounded-md shadow-sm'>
+
+                <div className='flex w-full items-center justify-center'>
+                    <h1 className='text-3xl font-bold mb-8'>🛠️ My Favorite Tools</h1>
+                </div>
+
+
+                <div className='flex-col w-full items-center space-y-4'>
+                    <div className='flex-col space-y-2'>
+                        <div className='flex w-full items-center justify-center'>
+                            <h1>🔢 Programming Languages</h1>
+                        </div>
+                        <div className='flex justify-center items-center space-x-2'>
+                            <a href="https://github.com/Pryority">
+                                <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=black" /></a>
+                            <a href="https://github.com/Pryority">
+                                <img alt="SQL" src="https://img.shields.io/badge/MySQL%20-%2314354C.svg?logo=mysql&logoColor=white" />
+                            </a>
+                            <a href="https://github.com/Pryority">
+                                <img alt="Solidity" src="https://img.shields.io/badge/Solidity%20-%2314354C.svg?logo=solidity&logoColor=white" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='flex-col space-y-2'>
+                        <div className='flex w-full items-center justify-center'>
+                            <h1>🧰 Frameworks and Libraries</h1>
+                        </div>
+                        <div className='flex justify-center items-center space-x-2'>
+                            <a href="https://github.com/Pryority"><img alt="React" src="https://img.shields.io/badge/React%20-%23D00000.svg?style=flat&logo=React&logoColor=white" /></a>
+                            <a href="https://github.com/Pryority"><img alt="Express" src="https://img.shields.io/badge/Express%20-%23013243.svg?style=flat&logo=Express&logoColor=white" /></a>
+                            <a href="https://github.com/Pryority"><img alt="Tailwindcss" src="https://img.shields.io/badge/tailwind%20-%2314354C.svg?style=flat&logo=tailwindcss&logoColor=white" /></a>
+                            <a href="https://github.com/Pryority"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap%20-%23150458.svg?style=flat&logo=Bootstrap&logoColor=white" /></a>
+                        </div>
+                    </div>
+
+                    <div className='flex-col space-y-2'>
+                        <div className='flex w-full items-center justify-center'>
+                            <h1>🗄️ Databases and Cloud Hosting</h1>
+                        </div>
+                        <div className='flex justify-center items-center space-x-2'>
+                            <a href="https://github.com/Pryority"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?style=flat&logo=github&logoColor=white" /></a>
+                            <a href="https://github.com/Pryority"><img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white" /></a>
+                            <a href="https://github.com/Pryority"><img alt="Firebase" src="https://img.shields.io/badge/Firebase-%23FF6F00.svg?style=flat&logo=firebase&logoColor=white" /></a>
+                        </div>
+                    </div>
+
+                    <div className='flex-col space-y-2'>
+                        <div className='flex w-full items-center justify-center'>
+                            <h1>💻 Software and Tools</h1>
+                        </div>
+                        <div className='flex justify-center items-center space-x-2'>
+                            <a href="https://github.com/Pryority"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=visual-studio-code&logoColor=white" /></a>
+                            <a href="https://github.com/Pryority"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?style=flat&logo=git&logoColor=white" /></a>
+                            <a href="https://github.com/Pryority"><img alt="Insomnia" src="https://img.shields.io/badge/Insomnia-black?style=flat&logo=insomnia&logoColor=5849BE" /></a>
+                            <a href="https://github.com/Pryority"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16.svg?style=flat&logo=stack-overflow&logoColor=white" /></a>
+
+                        </div>
                     </div>
                 </div>
             </div>

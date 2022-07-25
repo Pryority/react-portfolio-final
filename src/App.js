@@ -24,8 +24,8 @@ function App() {
       </div>
     </Router>
     <div className='p-2'>
-      <video width="100%" height="100%" className='rounded-t-lg' controls autoplay='true' muted='true'>
-        <source src={ib} type="video/mp4" autoplay />
+      <video width="100%" height="100%" className='rounded-t-lg' controls autoPlay={true} muted={true}>
+        <source src={ib} type="video/mp4" />
       </video>
     </div>
     <Footer /></>
