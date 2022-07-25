@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-final",
   "version": "0.1.0",
-  "homepage": "https://pryority.github.io/react-portfolio-final",
+  "homepage": "https://mp-react-portfolio.herokuapp.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
