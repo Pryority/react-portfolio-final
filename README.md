@@ -22,4 +22,4 @@ If you have any questions feel free to contact me here:
 
 ## Application Image
 
-![Image of Application](demo.png)
+![Image of Application](public/assets/images/demo.png)

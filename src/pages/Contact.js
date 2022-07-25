@@ -1,8 +1,9 @@
 import React from 'react';
 import ContactForm from './ContactForm';
-import headshot from './matt-headshot.jpg'
+import headshot from '../../src/assets/images/matt-headshot.jpg'
 
 export default function Contact() {
+
     return (
         <div className='flex flex-col items-center justify-center p-6 h-screen'>
             <div className='flex flex-col space-y-4 border border-slate-100 p-8 bg-white rounded-md'>

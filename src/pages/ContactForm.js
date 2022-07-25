@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const FORM_ENDPOINT = ""; // TODO - fill on the later step
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/5ba62f30-0c53-11ed-9bdb-53c785fa3343";
 
 const ContactForm = () => {
     const [submitted, setSubmitted] = useState(false);
@@ -12,12 +12,12 @@ const ContactForm = () => {
 
     if (submitted) {
         return (
-            <>
+            <div className='flex-col items-center justify-center'>
                 <div className="text-2xl">Thank you!</div>
                 <div className="text-md">
-                    <p>We'll be in touch soon.</p>
+                    <p>I'll be in touch soon.</p>
                 </div>
-            </>
+            </div>
         );
     }
 
