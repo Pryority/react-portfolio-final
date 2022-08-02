@@ -11,7 +11,7 @@ export default class Nav extends Component {
                     <img src="https://readme-typing-svg.herokuapp.com?lines=Full-Stack+Web+Developer;Outdoor+Adventure+Enthusiast;Freelancer;Seeking+Employment;Friendly;Always%20Learning&start=true&width=380&height=45" className='mt-4 pl-4' alt='About me typed' />
                 </div>
 
-                <ul className='flex space-x-8 items-center list-none mr-4'>
+                <ul className='lg:flex lg:space-x-8 items-center list-none mr-4 text-end lg:text-center'>
                     <li>
                         <NavLink
                             to="/"
