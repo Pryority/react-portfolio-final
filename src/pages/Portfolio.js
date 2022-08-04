@@ -8,7 +8,7 @@ export default function Portfolio() {
                 {Projects.map(project => {
                     return (
                         <a key={project.id} href={project.deployedUrl}>
-                            <div className='flex flex-col h-full w-full mx-2 my-auto justify-center items-center bg-white border border-slate-100 p-2 rounded-md'>
+                            <div className='flex flex-col h-full w-full justify-center items-center bg-white border border-slate-100 p-2 rounded-md'>
                                 <div className='flex space-x-8 py-2 h-full justify-around'>
                                     <div className='flex flex-col justify-center items-start space-y-3'>
                                         <div className='flex flex-col w-full'>
