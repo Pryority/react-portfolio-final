@@ -45,6 +45,26 @@
   },
   {
     "id": 2,
+    "title": "Trekker Trails",
+    "description": "A quick way to search for trails around you, while presenting the forecast of the current week.",
+    "status": "Complete",
+    "team": [
+      { "member": "Matthew Pryor" },
+      { "member": "Fernando Almeida" },
+      { "member": "Lucas Pittam" },
+      { "member": "Tiffany Bell" }
+    ],
+    "stack": [
+      { "tech": "HTML w/ Handlebars" },
+      { "tech": "CSS" },
+      { "tech": "Javascript" },
+      { "tech": "Google Maps API" }
+    ],
+    "imageUrl": "https://github.com/project1team7/Trekking-App/raw/main/assets/images/Trekking-APP.gif",
+    "deployedUrl": "https://project1team7.github.io/Trekking-App/"
+  },
+  {
+    "id": 3,
     "title": "Athleague",
     "description": "A mixed reality physical activity game.",
     "status": "Incomplete",

@@ -4,7 +4,7 @@ import Projects from '../assets/json/projects.json'
 export default function Portfolio() {
     return (
         <div className='flex items-center justify-center mb-8 w-full'>
-            <div className='grid gap-4 grid-cols-2  h-full w-full'>
+            <div className='flex flex-col md:grid gap-4 grid-cols-2  h-full w-full'>
                 {Projects.map(project => {
                     return (
                         <a key={project.id} href={project.deployedUrl}>
