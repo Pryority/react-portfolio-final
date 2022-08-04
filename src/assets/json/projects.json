@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "title": "Space Jetters",
+    "description": "A travel agency company that allows customers to plan space travel missions throughout the Solar System.",
+    "status": "Complete",
+    "team": [
+      { "member": "Matthew Pryor" },
+      { "member": "Lucca Araujo" },
+      { "member": "Deiondrae Small-Ormsby" },
+      { "member": "Oindrila Talukder" },
+      { "member": "Senthol Kumar" },
+      { "member": "Lewis Iwhere" }
+    ],
+    "stack": [
+      { "tech": "MongoDB" },
+      { "tech": "Express.js" },
+      { "tech": "React.js" },
+      { "tech": "Node.js" },
+      { "tech": "GraphQL" }
+    ],
+    "imageUrl": "https://user-images.githubusercontent.com/78193249/181665348-2bff0dc8-1b50-4dd4-ad0e-8f7e4c4f693f.png",
+    "deployedUrl": "https://space-jetters.herokuapp.com/"
+  },
+  {
+    "id": 1,
+    "title": "Foston Pizza",
+    "description": "A inventory management application designed to used by a restaurant manager to create, read, update and delete ingredient data for their restaurant's meals.",
+    "status": "Complete",
+    "team": [
+      { "member": "Matthew Pryor" },
+      { "member": "Ian Ackerman" },
+      { "member": "Deiondrae Small-Ormsby" },
+      { "member": "Swapna Menon" },
+      { "member": "Royden Semedo" },
+      { "member": "Jasmine Virk" }
+    ],
+    "stack": [
+      { "tech": "MySQL" },
+      { "tech": "Express.js" },
+      { "tech": "Handlebars" }
+    ],
+    "imageUrl": "https://user-images.githubusercontent.com/47282257/172509810-aee19173-2273-4c27-b382-ef44ff232f00.png",
+    "deployedUrl": "https://reimagined-system.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "title": "Athleague",
+    "description": "A mixed reality physical activity game.",
+    "status": "Incomplete",
+    "team": [{ "member": "Matthew Pryor" }],
+    "stack": [{ "tech": "HTML" }, { "tech": "CSS" }, { "tech": "Javascript" }],
+    "imageUrl": "https://github.com/Pryority/Athleague/raw/main/assets/images/thumbnail.png",
+    "deployedUrl": "https://pryority.github.io/Athleague/"
+  }
+]

@@ -33,7 +33,7 @@ export default function FostonPizza() {
                         </div>
                         <div className='flex flex-col'>
                             <p className='text-sm font-light'>Status:</p>
-                            <p className='font-medium'>Incomplete</p>
+                            <p className='font-medium'>Complete</p>
                         </div>
                         <div className='flex flex-col'>
                             <p className='text-sm font-light'>Stack:</p>

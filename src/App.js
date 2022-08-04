@@ -1,13 +1,13 @@
 import * as React from 'react';
-import Nav from './navigation/Navbar.js';
-import Footer from './navigation/Footer.js';
+import Nav from './components/navigation/Navbar';
+import Footer from './components/navigation/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume.js';
-import ib from './italy_withEndingMosh_final.mp4';
+// import ib from './italy_withEndingMosh_final.mp4';
 
 function App() {
   return (<>
@@ -23,11 +23,11 @@ function App() {
         </Routes>
       </div>
     </Router>
-    <div className='p-2'>
+    {/* <div className='p-2'>
       <video width="100%" height="100%" className='rounded-t-lg' controls autoPlay={true} muted={true}>
         <source src={ib} type="video/mp4" />
       </video>
-    </div>
+    </div> */}
     <Footer /></>
   );
 }

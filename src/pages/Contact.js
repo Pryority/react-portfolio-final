@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactForm from './ContactForm';
+import ContactForm from '../components/ContactForm';
 import headshot from '../../src/assets/images/matt-headshot.jpg'
 
 export default function Contact() {

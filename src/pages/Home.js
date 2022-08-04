@@ -1,7 +1,7 @@
 import React from 'react';
 import ski from '../../src/assets/images/ski.jpeg';
 import hike from '../../src/assets/images/hike.jpeg';
-import NavButtons from './components/NavButtons';
+import NavButtons from '../components/NavButtons';
 
 export default function Home() {
     return (

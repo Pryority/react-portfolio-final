@@ -1,5 +1,5 @@
 import React from 'react'
-import NavButtons from '../pages/components/NavButtons'
+import NavButtons from '../NavButtons'
 
 export default function Footer() {
     return (

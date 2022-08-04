@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
-import mp from '../../src/assets/images/MP.png'
+import mp from '../../../src/assets/images/MP.png'
 
 export default class Nav extends Component {
     render() {

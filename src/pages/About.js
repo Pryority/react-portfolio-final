@@ -14,7 +14,7 @@ export default function About() {
                         <p className='text-start flex-wrap w-full text-slate-900'>
                             It's nice to meet you. My name is Matthew and I am an aspiring <b>full-stack developer</b>.
                             <br /><br />
-                            Before I started to learn full-stack development with the University of Toronto, I finished my studies at Laurentian University with my Bachelor of Physical Health Education and Bachelor of Education. I am pursuing a career in web development because of my passion for technology, for media and art.
+                            Before I started to learn full-stack development with the University of Toronto, I finished my studies at Laurentian University with my Bachelor of Physical Health Education and Bachelor of Education. I am pursuing a career in web development because of my passion for technology, for media and art. In my free time, you can find me flying my DJI drone, tinkering with software ideas or creating digital art.
                             <br /><br />
                             In addition to learning about common programming languages, frameworks and libraries, I am eagerly learning about blockchain technology, smart contracts, NFTs and cryptocurrencies in general.
                         </p>

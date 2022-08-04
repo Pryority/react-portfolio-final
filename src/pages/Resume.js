@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from './mp-resume-2022.pdf#toolbar=0'
+import resume from '../assets/mp-resume-22.pdf#toolbar=0'
 
 export default function Resume() {
     return (
