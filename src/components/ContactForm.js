@@ -27,8 +27,9 @@ const ContactForm = () => {
             onSubmit={handleSubmit}
             method="POST"
             target="_blank"
+            className="flex flex-col space-y-4 mb-16"
         >
-            <div className="mb-3 pt-0">
+            <div className="flex w-full">
                 <input
                     type="text"
                     placeholder="Your name"
@@ -37,7 +38,7 @@ const ContactForm = () => {
                     required
                 />
             </div>
-            <div className="mb-3 pt-0">
+            <div className="flex w-full ">
                 <input
                     type="email"
                     placeholder="Email"
@@ -46,7 +47,7 @@ const ContactForm = () => {
                     required
                 />
             </div>
-            <div className="mb-3 pt-0">
+            <div className="flex w-full">
                 <textarea
                     placeholder="Your message"
                     name="message"
@@ -56,7 +57,8 @@ const ContactForm = () => {
             </div>
             <div className="mb-3 pt-0 flex justify-center">
                 <button
-                    className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150
+                    mt-8"
                     type="submit"
                 >
                     Send a message

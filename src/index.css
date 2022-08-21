@@ -15,3 +15,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+svg {
+  fill: rgba(0, 0, 0, 0.5);
+}
+
+svg:hover {
+  fill: rgba(0, 0, 0, 0.62);
+}
